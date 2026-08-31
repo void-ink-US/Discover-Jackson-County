@@ -1,0 +1,68 @@
+name: Verification pass
+
+# Quarterly, with the May run landing well before the July 4th traffic surge.
+# Reports only. It never edits index.html.
+on:
+  schedule:
+    - cron: '0 13 1 2,5,8,11 *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run checks
+        run: node .github/verify/check.mjs
+
+      - name: Decide whether anything needs attention
+        id: triage
+        run: |
+          node -e '
+            const f = require("./.github/verify/last-check.json").findings;
+            const actionable = [...f.links, ...f.events].filter(x => x.verdict !== "manual").length
+              + f.lint.length + f.queue.length;
+            require("fs").appendFileSync(process.env.GITHUB_OUTPUT, "count=" + actionable + "\n");
+          '
+
+      - name: Open or update the issue
+        if: steps.triage.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TITLE: "Verification pass: ${{ steps.triage.outputs.count }} item(s) to check"
+        run: |
+          gh label create verification --color C4882A --description "Automated site verification" 2>/dev/null || true
+          EXISTING=$(gh issue list --label verification --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue edit "$EXISTING" --title "$TITLE" --body-file .github/verify/last-check.md
+            gh issue comment "$EXISTING" --body "Re-checked on $(date -u +%Y-%m-%d). Issue body updated above."
+          else
+            gh issue create --title "$TITLE" --label verification --body-file .github/verify/last-check.md
+          fi
+
+      - name: Close the issue when everything is clean
+        if: steps.triage.outputs.count == '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EXISTING=$(gh issue list --label verification --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue close "$EXISTING" --comment "Verification pass on $(date -u +%Y-%m-%d) found nothing outstanding."
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-report
+          path: |
+            .github/verify/last-check.md
+            .github/verify/last-check.json

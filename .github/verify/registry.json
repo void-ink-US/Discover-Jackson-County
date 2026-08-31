@@ -1,0 +1,867 @@
+{
+  "note": "Mirror of index.html for verification. The page is the source of truth. Regenerate with: node .github/verify/sync-registry.mjs --write",
+  "generated": "2026-08-31",
+  "seeded": "2026-06-15",
+  "link_exceptions": {
+    "https://booking.stay22.com/voidinkus/OItdEOKq_u": "booking.com",
+    "https://www.appalachian-moonshine.com": "myshopify.com"
+  },
+  "event_sources": [
+    {
+      "event": "Ripley 4th of July",
+      "url": "https://www.ripleyfourthofjuly.com",
+      "keyword": "ripley"
+    },
+    {
+      "event": "Mountain State Art & Craft Fair",
+      "url": "https://www.msacf.com/",
+      "keyword": "craft"
+    },
+    {
+      "event": "Jackson County Jr. Fair",
+      "url": "https://www.jacksoncountyjrfair.org",
+      "keyword": "fair"
+    },
+    {
+      "event": "Ohio River Festival",
+      "url": "https://www.cityofravenswood.com/ohio-river-festival",
+      "keyword": "festival"
+    },
+    {
+      "event": "Harvest & Wood Festival",
+      "url": "https://www.cityofravenswood.com/harvest-wood",
+      "keyword": "harvest"
+    },
+    {
+      "event": "Ripley Veterans Day Parade",
+      "url": "https://www.facebook.com/ripleyveteransdayparade",
+      "keyword": "veterans",
+      "manual": true
+    }
+  ],
+  "counts": {
+    "entities": 40,
+    "pois": 39,
+    "catref": 26,
+    "directory": 31,
+    "links": 21
+  },
+  "entities": [
+    {
+      "slug": "218-bridal",
+      "name": "218 Bridal",
+      "category": "shops",
+      "type": "Bridal Boutique",
+      "town": "Ripley",
+      "address": "218 Main St W, Ripley, WV 25271",
+      "lat": 38.818772,
+      "lng": -81.712134,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "alpine-theatre",
+      "name": "Alpine Theatre",
+      "category": "arts",
+      "type": null,
+      "town": "Ripley",
+      "address": "210 W Main St, Ripley, WV 25271",
+      "lat": 38.8188,
+      "lng": -81.7121,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": "(304) 372-1637",
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "appalachian-distillery",
+      "name": "Appalachian Distillery",
+      "category": "dining",
+      "type": "Distillery",
+      "town": "Ripley",
+      "address": "3875 Cedar Lakes Dr, Ripley, WV 25271",
+      "lat": 38.763924,
+      "lng": -81.684031,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": "https://www.appalachian-moonshine.com",
+      "facebook": null,
+      "phone": "(304) 372-7000",
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "beyond-bargains",
+      "name": "Beyond Bargains",
+      "category": "shops",
+      "type": "Boutique",
+      "town": "Ripley",
+      "address": "109 S Church St, Ripley, WV 25271",
+      "lat": 38.818302,
+      "lng": -81.710729,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "cedar-lakes-conference-center",
+      "name": "Cedar Lakes Conference Center",
+      "category": null,
+      "type": "Venue & Lodging",
+      "town": null,
+      "address": null,
+      "lat": null,
+      "lng": null,
+      "appears_in": [
+        "directory"
+      ],
+      "website": "https://www.cedarlakes.com",
+      "facebook": null,
+      "phone": "(304) 372-7860",
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "cozumel-mexican-restaurant",
+      "name": "Cozumel Mexican Restaurant",
+      "category": "dining",
+      "type": "Mexican Restaurant",
+      "town": "Ripley",
+      "address": "250 Clay Lick Rd, Ripley, WV 25271",
+      "lat": 38.823367,
+      "lng": -81.727871,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "explorers-children-s-museum",
+      "name": "Explorers Children's Museum",
+      "category": "arts",
+      "type": null,
+      "town": "Ripley",
+      "address": "2998 Charleston Rd, Ripley, WV 25271",
+      "lat": 38.76841,
+      "lng": -81.696694,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "fairplain-yacht-club",
+      "name": "Fairplain Yacht Club",
+      "category": "dining",
+      "type": "Creative American",
+      "town": "Ripley",
+      "address": "3869 Cedar Lakes Dr, Ripley, WV 25271",
+      "lat": 38.764375,
+      "lng": -81.684301,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "fat-albert-pizza",
+      "name": "Fat Albert Pizza",
+      "category": "dining",
+      "type": "Pizza",
+      "town": "Ripley",
+      "address": "123 N Court St, Ripley, WV 25271",
+      "lat": 38.8196,
+      "lng": -81.7115,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "great-bend-campground-and-marina",
+      "name": "Great Bend Campground & Marina",
+      "category": "stay",
+      "type": "Camping",
+      "town": "Ravenswood",
+      "address": "Great Bend Campground, Ravenswood, WV 26164",
+      "lat": 38.945969,
+      "lng": -81.758599,
+      "appears_in": [
+        "map",
+        "directory"
+      ],
+      "website": "https://greatbendcampground.com",
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "great-bend-museum",
+      "name": "Great Bend Museum",
+      "category": "arts",
+      "type": null,
+      "town": "Ravenswood",
+      "address": "Great Bend Museum, Ravenswood, WV 26164",
+      "lat": 38.943013,
+      "lng": -81.758764,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "holiday-inn-express",
+      "name": "Holiday Inn Express",
+      "category": "stay",
+      "type": null,
+      "town": "Ripley",
+      "address": "Holiday Inn Express, Ripley, WV 25271",
+      "lat": 38.818191,
+      "lng": -81.723079,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "holt-lodge-at-cedar-lakes",
+      "name": "Holt Lodge at Cedar Lakes",
+      "category": "stay",
+      "type": null,
+      "town": "Ripley",
+      "address": "82 FFA Drive, Ripley, WV 25271",
+      "lat": 38.795438,
+      "lng": -81.686,
+      "appears_in": [
+        "map"
+      ],
+      "website": "https://www.cedarlakes.com",
+      "facebook": null,
+      "phone": "(304) 372-7860",
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "i-scream-sundae",
+      "name": "I Scream Sundae",
+      "category": "dining",
+      "type": "Ice Cream",
+      "town": "Ripley",
+      "address": "516 Main St W, Ripley, WV 25271",
+      "lat": 38.818887,
+      "lng": -81.717178,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "inaka-hibachi-and-sushi",
+      "name": "Inaka Hibachi & Sushi",
+      "category": "dining",
+      "type": "Japanese",
+      "town": "Ravenswood",
+      "address": "100 Washington St, Ravenswood, WV 26164",
+      "lat": 38.9473,
+      "lng": -81.7609,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "jackson-county-fairgrounds",
+      "name": "Jackson County Fairgrounds",
+      "category": "arts",
+      "type": null,
+      "town": "Cottageville",
+      "address": "508 Cottageville Rd, Cottageville, WV 25239",
+      "lat": 38.859448,
+      "lng": -81.820026,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "jewelers-touch",
+      "name": "Jewelers Touch",
+      "category": "shops",
+      "type": "Jewelry & Watches",
+      "town": "Ripley",
+      "address": "111 N Court St, Ripley, WV 25271",
+      "lat": 38.8192,
+      "lng": -81.7114,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "las-fajitas-mexican-grill",
+      "name": "Las Fajitas Mexican-Grill",
+      "category": "dining",
+      "type": "Mexican Restaurant",
+      "town": "Ravenswood",
+      "address": "205 Washington St, Ravenswood, WV 26164",
+      "lat": 38.94823,
+      "lng": -81.76108,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "las-trancas",
+      "name": "Las Trancas",
+      "category": "dining",
+      "type": "Mexican Restaurant",
+      "town": "Ripley",
+      "address": "157 McGraw St, Ripley, WV 25271",
+      "lat": 38.8208,
+      "lng": -81.7227,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "left-behind-vintage",
+      "name": "Left Behind Vintage",
+      "category": "shops",
+      "type": "Vintage & Antiques",
+      "town": "Ripley",
+      "address": "206 W Main St, Ripley, WV 25271",
+      "lat": 38.818769,
+      "lng": -81.712017,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "mountain-momma-marketplace",
+      "name": "Mountain Momma Marketplace",
+      "category": "shops",
+      "type": "Boutique & Gifts",
+      "town": "Ravenswood",
+      "address": "508 Washington St, Ravenswood, WV 26164",
+      "lat": 38.9534,
+      "lng": -81.7651,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "osaka-sushi-thai-and-steakhouse",
+      "name": "Osaka Sushi, Thai & Steakhouse",
+      "category": "dining",
+      "type": "Japanese, Thai & Steaks",
+      "town": "Ripley",
+      "address": "2998 Charleston Rd, Ripley, WV 25271",
+      "lat": 38.768864,
+      "lng": -81.695934,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "pete-s-hot-dogs",
+      "name": "Pete's Hot Dogs",
+      "category": "dining",
+      "type": "WV Hot Dogs",
+      "town": "Ripley",
+      "address": "230 S Church St, Ripley, WV 25271",
+      "lat": 38.815729,
+      "lng": -81.710008,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "quality-inn",
+      "name": "Quality Inn",
+      "category": "stay",
+      "type": null,
+      "town": "Ripley",
+      "address": "Quality Inn, Ripley, WV 25271",
+      "lat": 38.82538,
+      "lng": -81.727679,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "ravenswood-arts-llc",
+      "name": "Ravenswood Arts LLC",
+      "category": "arts",
+      "type": "Art Gallery",
+      "town": "Ravenswood",
+      "address": "224 Washington St, Ravenswood, WV 26164",
+      "lat": 38.9485,
+      "lng": -81.7617,
+      "appears_in": [
+        "map",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "ravenswood-floral-and-gifts",
+      "name": "Ravenswood Floral and Gifts",
+      "category": "shops",
+      "type": "Flowers & Gifts",
+      "town": "Ravenswood",
+      "address": "512 Washington St, Ravenswood, WV 26164",
+      "lat": 38.94836,
+      "lng": -81.761423,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "riverbend-antiques-and-craft-mall",
+      "name": "Riverbend Antiques & Craft Mall",
+      "category": "shops",
+      "type": "Antiques & Crafts",
+      "town": "Ravenswood",
+      "address": "219 Washington St, Ravenswood, WV 26164",
+      "lat": 38.9485,
+      "lng": -81.7612,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "roadhouse-2081",
+      "name": "Roadhouse 2081",
+      "category": "dining",
+      "type": "Steaks & Seafood",
+      "town": "Ripley",
+      "address": "150 Clay Lick Rd, Ripley, WV 25271",
+      "lat": 38.822347,
+      "lng": -81.7281,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "route-56-golf-course",
+      "name": "Route 56 Golf Course",
+      "category": "outdoors",
+      "type": "Golf & Recreation",
+      "town": null,
+      "address": null,
+      "lat": 38.911166,
+      "lng": -81.704241,
+      "appears_in": [
+        "map",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "santee-sweets",
+      "name": "Santee Sweets",
+      "category": "dining",
+      "type": "Bakery",
+      "town": "Ravenswood",
+      "address": "138 Washington St, Ravenswood, WV 26164",
+      "lat": 38.94796,
+      "lng": -81.76122,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "staats-mill-covered-bridge",
+      "name": "Staats Mill Covered Bridge",
+      "category": "arts",
+      "type": null,
+      "town": "Ripley",
+      "address": "Staats Mill Covered Bridge, Cedar Lakes, Ripley, WV 25271",
+      "lat": 38.794702,
+      "lng": -81.687037,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "statts-mills-campground-and-cabins",
+      "name": "Statts Mills Campground & Cabins",
+      "category": "stay",
+      "type": "Camping & Cabins",
+      "town": "Ripley",
+      "address": "5426 Statts Mills Rd, Ripley, WV 25271",
+      "lat": 38.74148,
+      "lng": -81.62397,
+      "appears_in": [
+        "map",
+        "directory"
+      ],
+      "website": "https://stattsmillscampground.com",
+      "facebook": null,
+      "phone": "(304) 373-0030",
+      "status": "active",
+      "last_verified": "2026-08-31",
+      "notes": "Renamed from Statts Mills RV Park & Cabins. Domain moved to stattsmillscampground.com. Confirmed live August 2026."
+    },
+    {
+      "slug": "steaming-cup-cafe",
+      "name": "Steaming Cup Cafe",
+      "category": "dining",
+      "type": "Coffee & Café",
+      "town": "Ravenswood",
+      "address": "128 Washington St, Ravenswood, WV 26164",
+      "lat": 38.9475,
+      "lng": -81.761,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "studio-109",
+      "name": "Studio 109",
+      "category": "shops",
+      "type": "Custom Apparel",
+      "town": "Ripley",
+      "address": "332 S Church St, Ripley, WV 25271",
+      "lat": 38.812,
+      "lng": -81.7062,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "super-8",
+      "name": "Super 8",
+      "category": "stay",
+      "type": null,
+      "town": "Ripley",
+      "address": "Super 8, Ripley, WV 25271",
+      "lat": 38.819727,
+      "lng": -81.725136,
+      "appears_in": [
+        "map"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "that-donut-place",
+      "name": "That Donut Place",
+      "category": "dining",
+      "type": "Donuts",
+      "town": "Ripley",
+      "address": "234 S Church St, Ripley, WV 25271",
+      "lat": 38.8151,
+      "lng": -81.7096,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "the-dawg-pound",
+      "name": "The Dawg Pound",
+      "category": "dining",
+      "type": "American",
+      "town": "Ravenswood",
+      "address": "1125 Walnut St, Ravenswood, WV 26164",
+      "lat": 38.943924,
+      "lng": -81.747449,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "the-ravenswood-inn",
+      "name": "The Ravenswood Inn",
+      "category": "stay",
+      "type": "Bed & Breakfast",
+      "town": "Ravenswood",
+      "address": "400 Walnut St, Ravenswood, WV 26164",
+      "lat": 38.948555,
+      "lng": -81.758685,
+      "appears_in": [
+        "map",
+        "dining-list",
+        "directory"
+      ],
+      "website": "https://www.ravenswoodinn.com",
+      "facebook": null,
+      "phone": "(304) 532-7102",
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "vail-furniture",
+      "name": "Vail Furniture",
+      "category": "shops",
+      "type": "Furniture, Est. 1844",
+      "town": "Ripley",
+      "address": "103 N Church St, Ripley, WV 25271",
+      "lat": 38.818971,
+      "lng": -81.710368,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    },
+    {
+      "slug": "wv-artisan-market",
+      "name": "WV Artisan Market",
+      "category": "shops",
+      "type": "Artisan Goods & Crafts",
+      "town": "Ripley",
+      "address": "3411 Charleston Rd, Ripley, WV 25271",
+      "lat": 38.763448,
+      "lng": -81.693396,
+      "appears_in": [
+        "map",
+        "shopping-list",
+        "directory"
+      ],
+      "website": null,
+      "facebook": null,
+      "phone": null,
+      "status": "active",
+      "last_verified": "2026-06-15",
+      "notes": ""
+    }
+  ]
+}

@@ -18,3 +18,8 @@
 # Never publish internal/business material or editor folders
 .claude/
 CLAUDE.md
+
+# Verification pipeline. Lives under .github/ so GitHub Pages never serves it.
+!.github/
+.github/verify/last-check.md
+.github/verify/last-check.json
